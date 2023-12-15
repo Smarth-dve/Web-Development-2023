@@ -7,10 +7,6 @@ ul{
     display: flex;
 }
 
-li{
-    float: right;
-}
-
 li a{
     display: block;
     padding: 15px;
