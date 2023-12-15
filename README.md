@@ -1,2 +1,2 @@
 # Web Development 2023
- Complete Web Development from scratch
+Learning Complete Web Development from scratch till Industry ready applications
