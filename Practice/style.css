@@ -1,0 +1,35 @@
+.container{
+    margin: auto;
+    min-width: 250px;
+    min-height: 250px;
+    display: flexbox;
+    border: 2px solid blueviolet;
+    width: 50vw;
+    justify-content: center;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.container2{
+
+    border: 2px blue solid;
+    max-width: fit-content;
+    margin: auto;
+    width: 100%;
+    padding: 5vh;
+    display: flexbox;
+    /* background-color: blue; */
+}
+form{
+    width: 75%;
+    max-width: fit-content;
+    display: flexbox;
+    margin: auto;
+    padding: 0;
+}
+input{
+    display: flexbox;
+    width: 100%;
+    padding: 8px;
+    margin: 1vb;
+}
