@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 5 | Basic Layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif; /* Set the default font family for the body */
+        }
+
+        nav {
+            background-color: blueviolet;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            padding: 1vh;
+            z-index: 1000; /* Add a z-index to make sure it appears above other elements */
+        }
+
+        ul li {
+            list-style-type: none;
+            display: inline-flex;
+            padding-left: 1vh;
+        }
+
+        ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 1vh;
+            font-weight: bold;
+        }
+
+        .outercontainer {
+            background-color: rgb(211, 187, 247);
+            height: 90vh;
+        }
+
+        .innercontainer {
+            text-align: center;
+            display: inline-flex;
+            border: 1px solid black;
+            width: 40%;
+            min-height: 80%;
+            margin: 6vh;
+        }
+
+        .container1 {
+            background-color: beige;
+        }
+
+        .container2 {
+            color: white;
+            background-color: #333;
+        }
+
+        p {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .roundercontainer {
+            padding-top: 95px;
+            text-align: center;
+            margin: 2vh;
+            height: 12vh;
+            background-color: cornflowerblue;
+            border-radius: 10px;
+        }
+
+        footer {
+            text-align: center;
+            color: white;
+            height: 5vh;
+            width: 100%;
+            background-color: rgb(255, 94, 0);
+        }
+
+        .thecircle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            text-align: center;
+            height: 50px;
+            width: 50px;
+            background-color: crimson;
+            color: white;
+            border-radius: 50%;
+            cursor: pointer;
+            /* Make it circular */
+        }
+
+        .thecircle p {
+            margin-top: 1.7vh;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="outercontainer">
+            <div class="innercontainer container1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, fugiat odio sed reiciendis aperiam
+                    consequatur aliquam officiis mollitia magnam voluptatibus saepe inventore explicabo?</p>
+            </div>
+            <div class="innercontainer container2">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil, vitae. Cupiditate, magnam
+                    consectetur iusto dolorum itaque pariatur molestiae soluta accusamus sunt voluptatum debitis illo
+                    incidunt sint, ipsa nesciunt, reprehenderit nostrum?</p>
+            </div>
+        </div>
+        <div class="roundercontainer">
+            <p>Hello This is a sigma web Development Course</p>
+        </div>
+        <footer>
+            <p>Hello This is a sigma web Development Course</p>
+        </footer>
+
+        <div class="thecircle">
+            <p>+</p>
+        </div>
+    </main>
+
+</body>
+
+</html>
